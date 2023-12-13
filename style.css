@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body{
+    width: 100%;
+    height: 100%;
+}
+.main
+{
+    height: 100%;
+    width: 100%;
+    background-image: url(https://images.unsplash.com/photo-1605443791607-80a259dd3c3c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80);
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+.parent
+{
+    width: 100%;
+    height: 100%;
+     background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    /* color: transparent; */
+
+}
+h1{
+    position: absolute;
+    top: 4%;
+    color:whitesmoke;
+    -webkit-text-stroke:red;
+    font-family: 'Sriracha', cursive;
+    background-color: black;
+    letter-spacing: 10px;
+    font-size: 50px;
+}
+.child1{
+    width: 250px;
+    height: 300px;
+    background-image: url(https://images.unsplash.com/photo-1652125141524-ad9bf5bce253?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: all ease 1.5s;
+    border-radius: 10px;
+    background-color: black;
+    color: transparent;
+    border: 4px solid black;
+}
+.child2{
+    width: 250px;
+    height: 300px;
+    background-image: url(https://images.unsplash.com/photo-1647194104720-25d09b297910?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=871&q=80);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: all ease 1.5s;
+    border-radius: 10px;
+    position: absolute;
+    top: 35%;
+    border: 4px solid black;
+}
+.child3{
+    width: 250px;
+    height: 300px;
+    background-image: url(https://images.unsplash.com/photo-1581909199603-0de32b43ffd2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: all ease 1s;
+    border-radius: 10px;
+    border: 4px solid black;            
+}
+.child1:hover{
+    scale: 1.3;
+}
+.child2:hover{
+    scale: 1.3;
+}
+.child3:hover{
+    scale: 1.3;
+}
+h1:hover{
+    color: rgb(233, 73, 73);
+}
